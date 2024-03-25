@@ -15,8 +15,8 @@ const [favstudent,setfavstudent]=useState([])
     <>
     <BrowserRouter>
     <div className=" flex gap-5 text-3xl font-bold justify-around bg-red-300 p-5 text-white">
-      <Link to={"/stu"}>Student list</Link>
-      <Link to={"/fav"}>Favstudentlist</Link>
+      <Link to={"/stu"}>Students list</Link>
+      <Link to={"/fav"}>Favourite students list</Link>
       </div>
       <Routes>
         <Route path="/stu" element={<Studentlist students={students} setstudents={setstudents} favstudent={favstudent} setfavstudent={setfavstudent}></Studentlist>}></Route>
