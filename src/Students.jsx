@@ -1,5 +1,5 @@
-import { useState } from "react"
-function Studentlist({students,favstudent,setfavstudent,setstudents}){
+
+function Studentlist({students,favstudent,setfavstudent}){
     
 
     function choosefav(item){
